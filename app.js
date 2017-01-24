@@ -1,5 +1,5 @@
 var Greeter = (function () {
-    function Greeter(element) {
+     function Greeter(element) {
         this.element = element;
         this.element.innerHTML += "The time is: ";
         this.span = document.createElement('span');
